@@ -20,4 +20,5 @@ class Palindrome  {
 // const palin = new Palindrome("HannaH");
 // console.log(palin.isPalindrome());
 
-module.exports = Palindrome;
+// module.exports = Palindrome;
+export default Palindrome;

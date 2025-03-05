@@ -4,7 +4,8 @@
     "module": "commonjs",                  /* Allow 'import x from y' when a module doesn't have a default export. */
     "esModuleInterop": true,   /* Disable resolving symlinks to their realpath. This correlates to the same flag in node. */
     "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
-    "strict": true,                                      /* Enable all strict type-checking options. */
+    "strict": true,
+    "skipLibCheck": true,                                      /* Enable all strict type-checking options. */
     "rootDir": "./src",
     "outDir": "./dist"
   },
